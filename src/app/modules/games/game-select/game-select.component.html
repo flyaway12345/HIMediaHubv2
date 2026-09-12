@@ -1,0 +1,10 @@
+<div class="container">
+  <div *ngFor="let game of gameData" class="card" style="width: 18rem;">
+    <img class="card-img-top" src="{{game.img}}">
+  <div class="card-body">
+    <h5 class="card-title">{{game.name}}</h5>
+    <p class="card-text">
+      {{game.discription}}</p>
+      <a class="btn btn-primary" routerLink="{{game.src}}">Play</a>
+</div>
+</div>
