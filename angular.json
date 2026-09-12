@@ -70,9 +70,11 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "./",
-            "name": "HI Media Creations",
-            "cname":"himedia.gg"
+            "baseHref": "https://flyaway12345.github.io/HIMediaHubv2/",
+            "name": "flyaway12345",
+            "email": "evanhaggard123@gmail.com",
+            "cname":"himedia.gg",
+            "repo": "https://github.com/flyaway12345/HIMediaHubv2"
           }
         }
       }
